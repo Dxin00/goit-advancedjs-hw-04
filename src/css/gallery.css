@@ -163,9 +163,6 @@ img {
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  border: 3px solid;
-  border-color: #4e75ff #4e75ff transparent;
-  box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
 
@@ -179,7 +176,7 @@ img {
   bottom: 0;
   margin: auto;
   border: 3px solid;
-  border-color: transparent #ff3d00 #ff3d00;
+  border-color: transparent #41d1ff;
   width: 24px;
   height: 24px;
   border-radius: 50%;
