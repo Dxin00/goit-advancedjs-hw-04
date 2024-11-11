@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terokhin HW-04</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-BMFj4jqR.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-CX4EDM7x.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/index-ZczL7Czl.css">
+  </head>
+  <body>    
+    <div class="container">
+      <h1 class="main-title">
+      <span class="main-title-gradient">Welcome to my HW #4</span>
+    </div>
+    <div class="gif-container">
+    <svg width="300" height="300">
+      <image href="https://media.giphy.com/media/2dQ3FMaMFccpi/giphy.gif?cid=790b76115tedezl5hbc9xiszkkqufdbivqdbsz3qc46gnhxh&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="300" height="300" alt="Centered GIF" class="centered-gif" />
+    </svg>
+    </div>
+      <main>
+        <div class="container-gallery">
+          <div class="search-area">
+            <form class="search-form" id="search-form">
+              <input type="text" class="search-input" id="search-input" name="search" placeholder="Search images..." required />
+              <button type="submit">Search</button>
+              <button
+              class="btn-reload" value="Refresh Page" onClick="window.location.href=window.location.href">Refresh</button>
+            </form>
+          </div>
+          <div class="loaderClass" style="display: none">
+            <span class="loader"></span>
+          </div>
+          <ul class="images-div"></ul>
+          <p class="not-found-img"></p>
+        </div>
+        <button type="button" class="load-more" style="display: none;">Load more</button>
+      </main>
+  </body>
+</html>
